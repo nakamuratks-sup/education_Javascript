@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <title>jQueryで色々してみよう</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <!-- <script type="text/javascript" src='main.js'></script> -->
+
+</head>
+<body>
+    <h1>ボタンを使って表を操作する</h1>
+    <br/>
+
+    <button id="btn1">行を追加</button>
+    <button id="btn2">行を削除</button>
+    <button id="btn3">偶数行を表示</button>
+    <button id="btn4">奇数行を表示</button>
+    <br/>
+    <table id="tblForm1" border="2">
+        <thead>
+            <tr>
+                <th>名前</th>
+                <th>メールアドレス</th>
+                <th>期限</th>
+                <th>チェックボックス</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr style="display: none;">
+                <td><input style="width: 150px;" name="name[]" type="text" value="あああああ"/></td>
+                <td><input style="width: 150px;" name="name[]" type="text" value="いいいいい"/></td>
+                <td><input style="width: 150px;" name="name[]" type="text" value="ううううう"/></td>
+                <td><input style="width: 150px;" name="name[]" type="checkbox" /></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script type="text/javascript" src="jqscript.js"></script>
+</body>
+</html>
