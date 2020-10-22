@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+    <title>jQuery Test!!</title>
+    <!-- <meta name='viewport' content='width=device-width, initial-scale=1'> -->
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+
+    <!-- jqueryライブラリの読み込み -->
+    <!-- ライブラリは自分で落としてきてね -->
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <!-- <script type="text/javascript" src="querscrpt.js"></script> -->
+</head>
+<body>
+    <h1>試験結果判定</h1>
+    <table title="sample01">
+        <tr>
+            <td id="lv_am">午前</td>
+            <td id="lv_pm">午後</td>
+        </tr>
+            <td>
+                <input id="input_am">
+            </td>
+            <td>
+                <input id="input_pm">
+            </td>
+    </table>
+    
+    
+    <button onclick="main()">DOMで採点</button><br>
+    <!-- <button onclick="main_jq()">採点_jQuery</button><br> -->
+    <button id="btn1">jQueryで採点</button><br>
+    <p id="result"></p>
+
+    
+    <script type="text/javascript" src="querscrpt.js"></script>
+
+</body>
+</html>
